@@ -1,5 +1,7 @@
 # Tnef Binary Gem
 
+[![Build Status](https://travis-ci.org/BoxFactura/tnef_binary_gem.svg?branch=master)](https://travis-ci.org/BoxFactura/tnef_binary_gem)
+
 ## Installation
 
 Add this line to your application's Gemfile:
