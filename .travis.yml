@@ -1,5 +1,39 @@
-sudo: false
 language: ruby
-rvm:
-  - 2.4.2
-before_install: gem install bundler -v 1.16.0
+jobs:
+  include:
+    # OSX config
+    - os: macos
+      rvm: 2.4
+    - os: macos
+      rvm: 2.5
+    - os: macos
+      rvm: 2.6
+    - os: macos
+      rvm: 2.7
+    # Ubuntu 16.04
+    - dist: xenial
+      rvm: 2.4
+    - dist: xenial
+      rvm: 2.5
+    - dist: xenial
+      rvm: 2.6
+    - dist: xenial
+      rvm: 2.7
+    # Ubuntu 18.04
+    - dist: bionic
+      rvm: 2.4
+    - dist: bionic
+      rvm: 2.5
+    - dist: bionic
+      rvm: 2.6
+    - dist: bionic
+      rvm: 2.7
+    # Ubuntu 20.04
+    - dist: focal
+      rvm: 2.4
+    - dist: focal
+      rvm: 2.5
+    - dist: focal
+      rvm: 2.6
+    - dist: focal
+      rvm: 2.7
