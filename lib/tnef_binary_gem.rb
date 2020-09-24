@@ -1,5 +1,6 @@
-require "tnef_binary_gem/version"
+# frozen_string_literal: true
+
+require 'tnef_binary_gem/version'
 
 module TnefBinaryGem
-  # Your code goes here...
 end
