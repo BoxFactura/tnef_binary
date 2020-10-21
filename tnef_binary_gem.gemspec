@@ -6,7 +6,7 @@ require 'tnef_binary_gem/version'
 
 Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.4'
-  spec.name          = 'tnef_binary_gem'
+  spec.name          = 'tnef_binary'
   spec.version       = TnefBinaryGem::VERSION
   spec.authors       = ['Arandi Lopez']
   spec.email         = ['arandilopez.93@gmail.com']

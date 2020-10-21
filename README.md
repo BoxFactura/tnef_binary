@@ -7,7 +7,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tnef_binary_gem', git: 'git://github.com/BoxFactura/tnef_binary_gem.git'
+gem 'tnef_binary'
 ```
 
 And then execute:
